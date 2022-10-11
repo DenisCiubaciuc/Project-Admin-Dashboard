@@ -1,0 +1,33 @@
+.main-container{
+
+    
+    display: grid;
+    grid-template: 100px / 0fr 1fr;
+}
+
+.sidebar{
+    background-color: rgb(52, 160, 255);
+    display: grid;
+    grid-row: 1/4
+}
+
+.header{
+    background-color: rgb(241, 3, 3);
+}
+
+.main-content{
+    background-color: whitesmoke;
+}
+
+.first-sidebar-container{
+    background-color: rgb(52, 160, 255);
+}
+
+.img-svg{
+    height: 20px;
+}
+
+#search{
+    border-radius: 5px;
+    background-color: rgb(208, 208, 208);
+}
